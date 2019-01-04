@@ -1,16 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Advance Git - 2019 Session | Byld</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"></head>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Advance Git - 2019 Session | Byld</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"></head>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="jumbotron">
-		<h1 class="display-4">Advanced Git Session 2019 !</h1>
-		<p class="lead">
-			Hope you're doing well and are getting to learn something in this session.
-		</p>
-	</div>
+    <div class="jumbotron">
+        <h1 class="display-4">Advanced Git Session 2019 !</h1>
+        <p class="lead">
+            Hope you're doing well and are getting to learn something in this session.
+        </p>
+
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Show List
+        </button>
+
+    </div>
+
+    <!-- Modal: Hall of fame of attendees :p  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">The attendees🔋</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+                <!-- Insert your name here ! -->
+                <li>A student !</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 </body>
 </html>
